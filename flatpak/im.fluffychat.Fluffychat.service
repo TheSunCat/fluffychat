@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=im.fluffychat.Fluffychat
+# the flutter command will be automatically updated to use flatpak
+Exec=sh -c "FLUTTER_HEADLESS=1 fluffychat --unifiedpush-bg"

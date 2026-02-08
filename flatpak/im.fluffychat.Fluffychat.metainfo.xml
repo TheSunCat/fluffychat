@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>im.fluffychat.Fluffychat</id>
+  <name>FluffyChat</name>
+  <summary>Chat with your friends</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>AGPL-3.0-only</project_license>
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </recommends>
+  <developer id="im.fluffychat">
+    <name>Krille-chan</name>
+  </developer>
+  <update_contact>shiny@shine.horse</update_contact>
+  <url type="homepage">https://fluffy.chat</url>
+  <url type="bugtracker">https://github.com/krille-chan/fluffychat/issues</url>
+  <url type="vcs-browser">https://github.com/krille-chan/fluffychat</url>
+  <url type="faq">https://fluffy.chat/faq/</url>
+  <description>
+    <p>FluffyChat is an open source, nonprofit and cute matrix messenger app. The app is easy to use but secure and decentralized.</p>
+    <p>Features</p>
+    <ul>
+    <li>Send all kinds of messages, images and files</li>
+    <li>Voice messages</li>
+    <li>Location sharing</li>
+    <li>Push notifications</li>
+    <li>Unlimited private and public group chats</li>
+    <li>Public channels with thousands of participants</li>
+    <li>Feature rich group moderation including all matrix features</li>
+    <li>Discover and join public groups</li>
+    <li>Dark mode</li>
+    <li>Hides complexity of Matrix IDs behind simple QR codes</li>
+    <li>Custom emotes and stickers</li>
+    <li>Video calls via sharing links to Jitsi</li>
+    <li>Spaces</li>
+    <li>Compatible with Element, Nheko, NeoChat and all other Matrix apps</li>
+    <li>End to end encryption</li>
+    <li>Emoji verification &amp; cross signing</li>
+    <li>And much more...</li>
+    </ul>
+    <p>FluffyChat comes with a dream</p>
+    <p>Imagine a world where everyone can choose the messenger they like and is still able to chat with all of their friends.</p>
+    <p>A world where there are no companies spying on you when you send selfies to friends and lovers.</p>
+    <p>And a world where apps are made for fluffyness and not for profit. ♥</p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat-website/refs/heads/main/src/assets/screenshots/linux_1.png</image>
+      <caption>Default screenshot for desktop</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat-website/refs/heads/main/src/assets/screenshots/linux_2.png</image>
+      <caption>The cutest messenger in Matrix</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat-website/refs/heads/main/src/assets/screenshots/linux_3.png</image>
+      <caption>Secure, encrypted, decentralized</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat-website/refs/heads/main/src/assets/screenshots/linux_4.png</image>
+      <caption>Send unlimited texts, photos and voice messages</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/krille-chan/fluffychat-website/refs/heads/main/src/assets/screenshots/linux_5.png</image>
+      <caption>Free, non-commercial and open source</caption>
+    </screenshot>
+  </screenshots>
+  <launchable type="desktop-id">im.fluffychat.Fluffychat.desktop</launchable>
+  <releases>
+    <release version="2.4.1" date="2026-01-23"/>
+    <release version="2.4.0" date="2026-01-21"/>
+    <release version="2.3.1" date="2025-11-20"/>
+    <release version="2.3.0" date="2025-11-16"/>
+    <release version="2.1.1" date="2025-08-30"/>
+    <release version="2.0.0" date="2025-06-20"/>
+    <release version="1.27.0" date="2025-06-06"/>
+    <release version="1.26.1" date="2025-05-10"/>
+    <release version="1.26.0" date="2025-04-27"/>
+    <release version="1.25.0" date="2025-02-20"/>
+  </releases>
+  <content_rating type="oars-1.1">
+    <content_attribute id="social-chat">intense</content_attribute>
+    <content_attribute id="social-audio">intense</content_attribute>
+    <content_attribute id="social-contacts">intense</content_attribute>
+  </content_rating>
+</component>
